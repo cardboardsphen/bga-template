@@ -29,7 +29,7 @@
 3. Copy the .vscode folder only to it
 4. Update intelephense paths in .vscode/settings.json if necessary
 5. add password to .vscode/sftp.json
-    * F1 -> SFTP: Download Project
+    * F1 -> "SFTP: Download Project"
 6. Copy \_gitignore to folder and rename to ".gitignore"
 7. Commit to your repo
 8. Copy all the other files into the project; this will overwrite some files (which is why we committed the originals)
@@ -40,5 +40,8 @@
 13. Rename file /src/sass/gamename.scss with your game name
 14. Rename file /src/typescript/gamename.ts with your game name
 15. Update gameinfos.inc.php with the basics
-16. Diff with committed files to see if there are any changes in the framework
-17. Build your game
+16. Diff with committed files to see if there were any changes in the framework that may require adjustments
+17. Ensure that .css and .js files are generated
+18. F1 -> "SFTP: Sync Local -> Remote"
+19. Verify that your game runs on BGA Studio
+20. Build your game!

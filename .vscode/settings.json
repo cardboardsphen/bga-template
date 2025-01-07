@@ -1,0 +1,40 @@
+{
+  "intelephense.environment.includePaths": [
+       "C:/PHP/lib/bga-sharedcode/misc",
+       "C:/PHP/bin/phpunit/phpunit"
+   ],
+    "intelephense.format.braces": "k&r",
+
+    "[javascript][typescript][css][scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+        "editor.formatOnSave": true
+    },
+    "php.validate.executablePath": "C:/PHP/php.exe",
+    "php.debug.executablePath": "C:\\PHP\\php.exe",
+    "phpunit.php": "C:\\PHP\\php.exe",
+    "phpunit.phpunit": "C:\\PHP\\bin\\phpunit.phar",
+    "php-docblocker.returnGap": true,
+    "php-docblocker.useShortNames": true,
+    "phpunit.args": [
+        "-c", ".phpunit.xml"
+    ],
+
+    "liveSassCompile.settings.compileOnWatch": false,
+    "liveSassCompile.settings.watchOnLaunch": true,
+    "liveSassCompile.settings.useNewCompiler": true,
+    "liveSassCompile.settings.showOutputWindowOn": "Warning",
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.includeItems": [
+        "/src/sass/**/*.scss",
+    ],
+    "liveSassCompile.settings.formats": [{
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "/"
+    }]
+}

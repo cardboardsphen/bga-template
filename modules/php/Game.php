@@ -9,6 +9,10 @@
  * See http://en.boardgamearena.com/#!doc/Studio for more information.
  * -----
  *
+ * Full source available at https://github.com/cardboardsphen/bga-mygamename
+ *
+ * -----
+ *
  * Game.php
  *
  * This is the main file for your game logic.

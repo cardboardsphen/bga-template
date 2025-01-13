@@ -17,6 +17,7 @@
     * Prettier
   * [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass)
   * Install typesript
+  * npm install -g tsc-watch
 * Extra
   * [PHP DocBlocker](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker)
   * [PHP Refactor Tool](https://marketplace.visualstudio.com/items?itemName=st-pham.php-refactor-tool)
@@ -33,12 +34,12 @@
 6. Copy \_gitignore to folder and rename to ".gitignore"
 7. Commit to your repo
 8. Copy all the other files into the project; this will overwrite some files (which is why we committed the originals)
-9. Replace all instances of "GameName" with your game name.
-10. Replace all instances of "gamename" with your games name in lowercase.
+9. Replace all instances of "MyGameName" with your game name.
+10. Replace all instances of "mygamename" with your games name in lowercase.
 11. Replace all instances of "cardboardsphen" with your name (if you're not them)
 12. Replace all instances of "bga-dev@sphen.com" with your email (if you're not them)
-13. Rename file /src/sass/gamename.scss with your game name
-14. Rename file /src/typescript/gamename.ts with your game name
+13. Rename file /src/sass/mygamename.scss with your game name
+14. Rename file /src/typescript/mygamename.ts with your game name
 15. Update gameinfos.inc.php with the basics
 16. Diff with committed files to see if there were any changes in the framework that may require adjustments
 17. Ensure that .css and .js files are generated

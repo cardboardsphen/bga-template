@@ -1,25 +1,3 @@
-/**
- *------
- * BGA framework: Gregory Isabelli & Emmanuel Colin & BoardGameArena
- * MyGameName implementation : © cardboardsphen, bga-dev@sphen.com
- *
- * This code has been produced on the BGA studio platform for use on http://boardgamearena.com.
- * See http://en.boardgamearena.com/#!doc/Studio for more information.
- * -----
- *
- * This is a generated file.
- * Full source available at https://github.com/cardboardsphen/bga-mygamename
- *
- * -----
- *
- * mygamename.js
- *
- * MyGameName user interface script
- *
- * In this file, you are describing the logic of your user interface, in Javascript language.
- *
- */
-
 /// <amd-module name="bgagame/mygamename"/>
 /// <reference path="./types/all-bga-types.d.ts"/>
 

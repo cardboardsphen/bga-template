@@ -1,5 +1,5 @@
-.vscode
-.phpunit.cache
-gamename.css
-gamename.js
-gamename.js.map
+/.vscode
+/.phpunit.cache
+/mygamename.css
+/mygamename.js
+/mygamename.js.map

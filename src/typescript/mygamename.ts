@@ -1,39 +1,38 @@
 /**
  *------
  * BGA framework: Gregory Isabelli & Emmanuel Colin & BoardGameArena
- * GameName implementation : © cardboardsphen, bga-dev@sphen.com
+ * MyGameName implementation : © cardboardsphen, bga-dev@sphen.com
  *
  * This code has been produced on the BGA studio platform for use on http://boardgamearena.com.
  * See http://en.boardgamearena.com/#!doc/Studio for more information.
  * -----
  *
- * gamename.js
+ * mygamename.js
  *
- * GameName user interface script
+ * MyGameName user interface script
  *
  * In this file, you are describing the logic of your user interface, in Javascript language.
  *
  */
 
-/// <amd-module name="bgagame/gamename"/>
+/// <amd-module name="bgagame/mygamename"/>
 /// <reference path="./types/all-bga-types.d.ts"/>
 
 import 'ebg/counter';
 import * as GameGui from 'ebg/core/gamegui';
 
-import * as dojo from 'dojo';
 import * as dom from 'dojo/dom';
 
 /**
- * Client implementation of GameName.
+ * Client implementation of MyGameName.
  */
-export default class GameName extends GameGui {
+export default class MyGameName extends GameGui {
     // enable dynamic method calls
     [key: string]: any;
 
     constructor() {
         super();
-        console.log('gamename constructor');
+        console.log('mygamename constructor');
     }
 
     override setup(gamedatas: BGA.Gamedatas | any): void {
@@ -98,4 +97,6 @@ export default class GameName extends GameGui {
     }
 }
 
-dojo.declare('bgagame.gamename', GameGui, new GameName());
+require(['dojo/_base/declare'], function (declare) {
+    declare('bgagame.mygamename', GameGui, new MyGameName());
+});

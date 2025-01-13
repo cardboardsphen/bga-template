@@ -38,11 +38,12 @@
 10. Replace all instances of "mygamename" with your games name in lowercase.
 11. Replace all instances of "cardboardsphen" with your name (if you're not them)
 12. Replace all instances of "bga-dev@sphen.com" with your email (if you're not them)
-13. Rename file /src/sass/mygamename.scss with your game name
-14. Rename file /src/typescript/mygamename.ts with your game name
-15. Update gameinfos.inc.php with the basics
-16. Diff with committed files to see if there were any changes in the framework that may require adjustments
-17. Ensure that .css and .js files are generated
-18. F1 -> "SFTP: Sync Local -> Remote"
-19. Verify that your game runs on BGA Studio
-20. Build your game!
+13. Search for github.com and replace with link to your repo
+14. Rename file /src/sass/mygamename.scss with your game name
+15. Rename file /src/typescript/mygamename.ts with your game name
+16. Update gameinfos.inc.php with the basics
+17. Diff with committed files to see if there were any changes in the framework that may require adjustments
+18. Ensure that .css and .js files are generated
+19. F1 -> "SFTP: Sync Local -> Remote"
+20. Verify that your game runs on BGA Studio
+21. Build your game!
